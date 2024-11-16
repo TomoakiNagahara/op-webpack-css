@@ -3,7 +3,7 @@
  *
  * @created   2022-12-20
  * @version   1.0
- * @package   onepiece-framework.com
+ * @package   op-webpack-css
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
@@ -29,4 +29,8 @@
 	border-radius: 0.25em;
 	background-color: var(--op-color-hover-background);
 	margin: calc(0.25em - 1px);
+}
+
+#op-translate-language-area li:hover a {
+	color: var(--op-color-hover-text);
 }
