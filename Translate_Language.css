@@ -27,6 +27,6 @@
 #op-translate-language-area li:hover {
 	border: 1px solid var(--op-color-hover-border);
 	border-radius: 0.25em;
-	background-color: hsla( 0, 0%, 30%, 0.5);
+	background-color: var(--op-color-hover-background);
 	margin: calc(0.25em - 1px);
 }
