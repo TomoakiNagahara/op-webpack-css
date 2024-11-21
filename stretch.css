@@ -1,0 +1,17 @@
+
+/** op-webpack-css:/stretch.css
+ *
+ * @created    2024-11-21
+ * @version    1.0
+ * @package    op-webpack-css
+ * @author     Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright  Tomoaki Nagahara All right reserved.
+ */
+
+/** `stretch` is an alternative to `100%`.
+ * @see https://coliss.com/articles/build-websites/operation/css/css-stretch-keyword.html
+ */
+.stretch {
+	width: stretch;
+	margin-inline: 1em;
+}
