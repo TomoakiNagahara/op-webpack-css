@@ -9,7 +9,8 @@
  */
 
 body.body p {
-	text-indent: 1em;
+	_text-indent: 1em;
+	line-height: 1.6em;
 }
 
 /**
