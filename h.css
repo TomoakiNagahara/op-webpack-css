@@ -8,17 +8,16 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-/*
 body.body h1 {
-	font-size: 180%;
+	font-size: 150%;
 }
 
 body.body h2 {
-	font-size: 160%;
+	font-size: 140%;
 }
 
 body.body h3 {
-	font-size: 140%;
+	font-size: 130%;
 }
 
 body.body h4 {
@@ -39,7 +38,6 @@ body.body h3,
 body.body h4,
 body.body h5,
 body.body h6 {
-	margin-top:    0.5rem;
+	margin-top:    2.0rem;
 	margin-bottom: 0.5rem;
 }
-*/
