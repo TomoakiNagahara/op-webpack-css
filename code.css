@@ -24,9 +24,10 @@
 }
 /* <?php endif; ?> */
 
-body.body  code,
-body.body .code {
+  code,
+ .code {
 	font-family: "Courier New", Consolas, monospace;
+	font-size: 100%;
 	border-radius: 0.2em;
 
 	color:            var(--op-code-color-text);
@@ -34,27 +35,30 @@ body.body .code {
 	border: 1px solid var(--op-code-color-border);
 
 	overflow: scroll;
-	line-height: 1.3em;
+	line-height: 1.25em;
+
+	position: relative;
+	top: -0.05em;
 }
 
-body.body code {
+ code {
 	white-space: pre;
 	margin: 0 0.25em;
 	padding:0 0.25em;
 }
 
 /* Separate to inline code */
-body.body pre > code {
+ pre > code {
 	display: block;
 }
 
-body.body pre > code,
-body.body div.code {
+ pre > code,
+ div.code {
 	margin:  1em 0;
 	padding: 0.5em 1em;
 }
 
-body.body span.code {
+ span.code {
 	margin:  .5em;
 	padding: .5em;
 }
