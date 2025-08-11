@@ -8,7 +8,7 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-body.body p {
+p {
 	_text-indent: 1em;
 	line-height: 1.6em;
 }
@@ -16,7 +16,7 @@ body.body p {
 /**
  * @see http://phiary.me/css-tips-certainly-line-break/
  */
-body.body p {
+p {
 	word-wrap:   break-word;
 	white-space: normal;
 }
@@ -24,7 +24,7 @@ body.body p {
 /**
  * @see https://lab.syncer.jp/Web/CSS/Snippet/4/
  */
-body.body p.br::after {
+p.br::after {
 	content: "\A" ;
 	white-space: pre;
 }
