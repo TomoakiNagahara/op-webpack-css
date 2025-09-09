@@ -63,7 +63,7 @@
 	/*
 	--op-syntax-comment:  hsl(  0,   0%, 50%);
 	*/
-	--op-syntax-string:   hsl(  0, 100%, 65%);
+	--op-syntax-string:   hsl(  0, 100%, 80%);
 	--op-syntax-variable: hsl(200, 100%, 50%);
 
 	--op-syntax-literal:  hsl(260, 100%, 50%);
@@ -71,10 +71,11 @@
 	/*
 	--op-syntax-false:    hsl(300, 100%, 50%);
 	--op-syntax-null:     hsl(320, 100%, 50%);
-
-	--op-syntax-keyword:  hsl(120,  50%, 50%);
-	--op-syntax-return:   hsl(260,  50%, 50%);
-	--op-syntax-new:      hsl(220,  50%, 50%);
+	*/
+	--op-syntax-keyword:  hsl(120,  50%, 70%);
+	--op-syntax-return:   hsl(120,  50%, 70%);
+	--op-syntax-new:      hsl(120,  50%, 70%);
+	/*
 	--op-syntax-private:  hsl(280,  50%, 50%);
 	--op-syntax-public:   hsl(220,  50%, 50%);
 
